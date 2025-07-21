@@ -1,0 +1,69 @@
+/* style.css - Tema Gelap Minimalis */
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #ffffff;
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  margin: -20px -20px 20px -20px;
+}
+
+h2 {
+  color: #ffffff;
+  border-left: 4px solid #4caf50;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+p, li {
+  font-size: 1em;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 40px 0;
+}
+
+footer, body > p:last-of-type {
+  text-align: center;
+  color: #888;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+/* Tambahkan di style.css */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  display: none;
+  cursor: pointer;
+}
